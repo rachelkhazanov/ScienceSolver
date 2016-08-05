@@ -1,0 +1,3 @@
+function ImagePopup() {
+        $(".popup").show()
+}

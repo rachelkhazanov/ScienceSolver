@@ -1,0 +1,128 @@
+#regchem {
+	background: url(chemtable.jpg) no-repeat;
+	background-size:500px;
+	width:480px; 
+	height:621px;
+}
+
+#apchem {
+	background: url(APchemtable.jpg) no-repeat;
+	background-size:500px;
+	width:564px; 
+	height:592px;
+}
+
+#regphysics {
+	background: url(physicstable.jpg) no-repeat;
+	background-size:500px;
+	width:494px; 
+	height:500px;
+}
+
+#apphysics {
+	background: url(APphysicstable.jpg) no-repeat;
+	background-size:500px;
+	width:638px; 
+	height:826px;
+}
+
+#densitybutton {
+	position: relative;
+	left: 150px;
+	top: 53px;
+	width: 50px;
+	height: 30px;
+	background: transparent;
+}
+
+#molebutton {
+	position: relative;
+	left: 100px;
+	top: 98px;
+	width: 200px;
+	height: 30px;
+	background: transparent;
+}
+
+#percenterror {
+	position: relative;
+	left: -100px;
+	top: 142px;
+	width: 223px;
+	height: 30px;
+	background: transparent;
+}
+
+#percentcomposition {
+	position: relative;
+	left: 150px;
+	top: 157px;
+	width: 207px;
+	height: 30px;
+	background: transparent;
+}
+
+#partspermillion {
+	position: relative;
+	left: -56px;
+	top: 194px;
+	width: 210px;
+	height: 30px;
+	background: transparent;
+}
+
+#molarity {
+	position: relative;
+	left: 151px;
+	top: 214px;
+	width: 133px;
+	height: 30px;
+	background: transparent;
+}
+
+#gaslaw {
+	position: relative;
+	left: 18px;
+	top: 255px;
+	width: 77px;
+	height: 32px;
+	background: transparent;
+}
+
+#titration {
+	position: relative;
+	left: -59px;
+	top: 303px;
+	width: 81px;
+	height: 30px;
+	background: transparent;
+}
+
+#heat {
+	position: relative;
+	left: -140px;
+	top: 343px;
+	width: 59px;
+	height: 44px;
+	background: transparent;
+}
+
+#temperature {
+	position: relative;
+	left: -199px;
+	top: 403px;
+	width: 72px;
+	height: 25px;
+	background: transparent;
+}
+
+.math {
+    float: right;
+    left: 100px;
+    top: -500px;
+    margin: 50px;
+    border: 50px solid #73AD21; 
+    display: none;
+}
+
+

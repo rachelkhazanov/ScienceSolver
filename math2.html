@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="Imagebuttonpopup.js"></script>
+<!--<script src="Calculations123.js"> </script>-->
+
+</head>
+<body>
+
+        <button onclick="ImagePopup()">
+
+</div>
+<div class="popup" style="display:none; width: 50%; float: left;">
+
+<br>
+  <input type="text" id="density">Density<br>
+
+  <input type="text" id="volume"> Volume<br>
+  <input type="text" id="mass">Mass<br>
+  <button onclick="Dens()">submit</button>
+
+
+  <script>
+  //document.getElementById("submit").onclick = function Dens(density, volume, mass)
+
+function Dens(){
+                var density = document.getElementById("density").value;
+                var volume = document.getElementById("volume").value;
+                var mass = document.getElementById("mass").value;
+                if (density == ""){
+                        density=mass/volume;
+                        //window.alert("density");
+                        document.getElementById("outtext").innerHTML = "density = ";
+                        document.getElementById("output").innerHTML = density;
+
+                }
+                else if(volume == ""){
+                        //window.alert("volume");
+                        volume=mass/density;
+                        document.getElementById("outtext").innerHTML = "volume = ";
+                        document.getElementById("output").innerHTML = volume;
+                }
+                else if(mass == ""){
+                        //window.alert("mass");
+                        mass=density*volume;
+                        document.getElementById("outtext").innerHTML = "mass = ";
+                        document.getElementById("output").innerHTML = mass;
+
+                }
+                return false;
+}
+</script>
+
+</form>
+
+
+
+
+
+ <p id="output"/p></p>
+</div>
+</body>
+</html>
